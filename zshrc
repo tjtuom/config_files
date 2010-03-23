@@ -8,6 +8,8 @@ setopt auto_cd
 # use vim as an editor
 export EDITOR=vim
 
+export PATH="$PATH:$HOME/bin"
+
 # aliases
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
