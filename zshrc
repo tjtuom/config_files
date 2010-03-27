@@ -32,3 +32,6 @@ setopt histignoredups
 
 # keep more history
 export HISTSIZE=200
+
+# use rvm
+if [[ -s /Users/toni/.rvm/scripts/rvm ]] ; then source /Users/toni/.rvm/scripts/rvm ; fi
