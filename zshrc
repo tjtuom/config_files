@@ -35,3 +35,9 @@ export HISTSIZE=200
 
 # use rvm
 if [[ -s /Users/toni/.rvm/scripts/rvm ]] ; then source /Users/toni/.rvm/scripts/rvm ; fi
+
+# set git editor
+export GIT_EDITOR=/usr/bin/vim
+
+# export clojure contrib to class path
+export CLASSPATH=$CLASSPATH:/usr/local/Cellar/clojure-contrib/HEAD/clojure-contrib.jar
