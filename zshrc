@@ -8,7 +8,9 @@ setopt auto_cd
 # use vim as an editor
 export EDITOR=vim
 
-export PATH="$PATH:$HOME/bin"
+export CLOJURESCRIPT_HOME="$HOME/Documents/Code/tools/clojurescript"
+
+export PATH="$PATH:$HOME/bin:$CLOJURESCRIPT_HOME/bin"
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then

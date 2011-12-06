@@ -5,3 +5,19 @@ alias tlf="tail -f"
 alias ll="ls -l"
 alias lla="ls -la"
 alias cdp="cd ~/Code/piranha-digital/kp-porssi"
+
+# Aliases
+alias ea='vim ~/Code/forks/config_files/aliases && source ~/Code/forks/config_files/aliases'
+
+# Rails
+alias rs='bundle exec rails server'
+alias rg='bundle exec rails g'
+alias rc='bundle exec rails c'
+alias rcw='rake cucumber:wip'
+alias rsdoc='bundle exec rspec spec --format=doc'
+
+# Remove vim swap files
+alias rmvim='rm ~/.vim/tmp/*'
+
+# Paths
+alias intra='cd ~/Code/tlks/intra'
